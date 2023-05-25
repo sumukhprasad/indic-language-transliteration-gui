@@ -29,7 +29,7 @@
 <main>
 	<h1>Indic Language Transliteration</h1>
 	<table>
-		<tr>
+		<tr class="small">
 			<td>
 				From <select id="from" on:change={updateToBox}>
 					{#each schemes as scheme}
@@ -46,8 +46,8 @@
 			</td>
 		</tr>
 		<tr>
-			<td><textarea id="fromarea" on:keyup={updateToBox}></textarea></td>
-			<td><textarea id="toarea" readonly></textarea></td>
+			<td><textarea id="fromarea" on:keyup={updateToBox} style="resize: none;"></textarea></td>
+			<td><textarea id="toarea" readonly style="resize: none;"></textarea></td>
 		</tr>
 	</table>
 
