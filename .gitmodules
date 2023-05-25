@@ -1,0 +1,3 @@
+[submodule "src/libilt/indic-language-transliteration"]
+	path = src/libilt/indic-language-transliteration
+	url = https://github.com/SumukhPrasad/indic-language-transliteration
