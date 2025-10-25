@@ -45,9 +45,9 @@
 				</select>
 			</td>
 		</tr>
-		<tr>
-			<td><textarea id="fromarea" on:keyup={updateToBox} style="resize: none;"></textarea></td>
-			<td><textarea id="toarea" readonly style="resize: none;"></textarea></td>
+		<tr style="height: 500px;">
+			<td style="height: 500px;"><textarea id="fromarea" on:keyup={updateToBox} style="resize: none;"></textarea></td>
+			<td style="height: 500px;"><textarea id="toarea" readonly style="resize: none;"></textarea></td>
 		</tr>
 	</table>
 
